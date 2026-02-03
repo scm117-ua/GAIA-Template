@@ -36,4 +36,9 @@
 - **Artifacts:**
   - specs/DataModel.md
 
+- **Milestone:** Implemented AC-PLAYER-001-BE-T01 (Backend Domain Logic)
+- **Artifacts:**
+  - backend/app/domain/alloy_calculator/models.py
+
+
 

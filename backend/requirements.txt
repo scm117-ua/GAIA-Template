@@ -1,0 +1,14 @@
+fastapi>=0.100.0
+uvicorn[standard]
+sqlalchemy
+alembic
+asyncpg
+pydantic>=2.0
+pydantic-settings
+pydantic-settings
+python-dotenv
+pytest
+pytest-cov
+pytest-asyncio
+httpx
+

@@ -19,7 +19,7 @@ Implementation follows a Client-Server model where the **Backend** acts as the S
    - **Scope**: Define `AlloyQuantity` Value Object in Domain (conceptual). No SQL changes expected.
    - **Deliverables**: Domain Entity/VO definition plan.
 
-2. - [ ] **AC-PLAYER-001-BE-T01 — Define Quantity Domain Models**
+2. - [x] **AC-PLAYER-001-BE-T01 — Define Quantity Domain Models** (2026-02-03)
    - **Type**: BE
    - **Description**: Implement `AlloyQuantity` and `UnitType` (Ingot/Unit) in the Backend Domain layer. Define conversion logic (1 Ingot = 100 Units) as a Domain Service or Value Object method.
    - **Scope**: `backend/app/domain/alloy_calculator`.
