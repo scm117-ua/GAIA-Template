@@ -32,3 +32,8 @@
   - specs/features/alloy-calculator/plan_AC-PLAYER-004-BE-T01.md
   - specs/features/alloy-calculator/plan_AC-PLAYER-004-FE-T01.md
 
+- **Milestone:** Implemented AC-PLAYER-001-DB-T01 (Data Model Doc)
+- **Artifacts:**
+  - specs/DataModel.md
+
+
