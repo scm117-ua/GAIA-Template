@@ -1,5 +1,5 @@
 from sqlalchemy import String, Boolean
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.infrastructure.persistence.models.base import Base
 
@@ -11,3 +11,7 @@ class AlloyModel(Base):
     name: Mapped[str] = mapped_column(String, unique=True, index=True)
     slug: Mapped[str] = mapped_column(String, unique=True, index=True)
     enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+
+    # Relationships
+    components = relationship("AlloyComponentModel", back_populates="alloy", cascade="all, delete-orphan")
+

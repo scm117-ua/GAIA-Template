@@ -59,7 +59,15 @@
 - **Artifacts:**
   - frontend/src/features/alloy-calculator/components/AlloySelect.tsx
   - frontend/src/features/alloy-calculator/api/getAlloys.ts
+  - frontend/src/features/alloy-calculator/api/getAlloys.ts
   - frontend/src/features/alloy-calculator/components/AlloySelect.test.tsx
+
+- **Milestone:** Implemented AC-PLAYER-003-DB-T01 (Alloy Composition Rules DB)
+- **Artifacts:**
+  - backend/app/infrastructure/persistence/models/alloy_component.py
+  - backend/app/infrastructure/persistence/models/alloy.py
+  - specs/DataModel.md
+
 
 
 

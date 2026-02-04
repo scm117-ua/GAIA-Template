@@ -1,19 +1,26 @@
 # Data Model
 
-## 1. Domain Entities (Conceptual)
+```mermaid
+erDiagram
+    ALHOY_QUANTITY {
+        int amount
+        string unit "Unit | Ingot"
+    }
 
-### 1.1 Alloy Calculator Domain
+    ALLOY {
+        int id PK
+        string name
+        string slug
+        boolean enabled
+    }
 
-#### Value Object: `AlloyQuantity`
-Represents the amount of alloy to be crafted. It abstracts the unit conversion logic.
-- **Attributes**:
-  - `value`: Float (Positive)
-  - `unit`: Enum (`INGOT`, `UNIT`)
-- **Behaviors**:
-  - `to_units()`: Returns value in game units (1 Ingot = 100 Units).
-  - `to_ingots()`: Returns value in ingots.
-- **Constraints**:
-  - Value must be >= 0.
+    ALLOY_COMPONENT {
+        int id PK
+        int alloy_id FK
+        string metal_name
+        int min_percentage
+        int max_percentage
+    }
 
-## 2. Persistence Schema (ERD)
-*No persistence required for Alloy Calculator basic logic (Client-side calculation).*
+    ALLOY ||--|{ ALLOY_COMPONENT : "has components"
+```

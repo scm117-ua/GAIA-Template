@@ -67,7 +67,7 @@ Implementation follows a Client-Server model where the **Backend** acts as the S
 
 #### Tickets for AC-PLAYER-003
 
-1. - [ ] **AC-PLAYER-003-DB-T01 — Store Alloy Composition Rules**
+1. - [x] **AC-PLAYER-003-DB-T01 — Store Alloy Composition Rules** (2026-02-04)
    - **Type**: DB
    - **Description**: Add columns/tables to store the detailed composition rules for each alloy (e.g., "Copper: 88-92%").
    - **Scope**: `alloy_components` table (FK to alloys) or JSONB column `composition_rules`.
