@@ -40,5 +40,10 @@
 - **Artifacts:**
   - backend/app/domain/alloy_calculator/models.py
 
+- **Milestone:** Implemented AC-PLAYER-001-FE-T01 (Frontend Input Component)
+- **Artifacts:**
+  - frontend/src/features/alloy-calculator/components/AmountInput.tsx
+
+
 
 

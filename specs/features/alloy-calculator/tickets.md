@@ -25,7 +25,7 @@ Implementation follows a Client-Server model where the **Backend** acts as the S
    - **Scope**: `backend/app/domain/alloy_calculator`.
    - **Deliverables**: Pydantic models for Input/Output (even if not yet exposed via API, they form the ubiquitous language). Python Unit Tests.
 
-3. - [ ] **AC-PLAYER-001-FE-T01 — Target Amount Input Component**
+3. - [x] **AC-PLAYER-001-FE-T01 — Target Amount Input Component** (2026-02-04)
    - **Type**: FE
    - **Description**: Create the UI for entering amount and toggling between Units/Ingots. Implement validation (no negative numbers).
    - **Scope**: `AmountInput` component, Zod schema.
