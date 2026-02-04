@@ -46,13 +46,13 @@ Implementation follows a Client-Server model where the **Backend** acts as the S
    - **Scope**: New table `alloys` (or JSON config if preferred, but Table is standard).
    - **Deliverables**: Alembic Migration.
 
-2. - [ ] **AC-PLAYER-002-BE-T01 — Alloy List Endpoint**
+2. - [x] **AC-PLAYER-002-BE-T01 — Alloy List Endpoint** (2026-02-04)
    - **Type**: BE
    - **Description**: Create `GET /api/v1/alloys` to list available alloys.
    - **Scope**: Router, Use Case, Repository.
    - **Deliverables**: OpenAPI endpoint, Integration Test.
 
-3. - [ ] **AC-PLAYER-002-FE-T01 — Alloy Selector Component**
+3. - [x] **AC-PLAYER-002-FE-T01 — Alloy Selector Component** (2026-02-04)
    - **Type**: FE
    - **Description**: Dropdown to select alloy. Fetches list from Backend (React Query).
    - **Scope**: `AlloySelect` component.

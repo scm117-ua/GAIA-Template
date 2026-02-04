@@ -55,6 +55,13 @@
   - backend/app/application/alloy_calculator/list_alloys.py
   - backend/app/infrastructure/persistence/repositories/alloy.py
 
+- **Milestone:** Implemented AC-PLAYER-002-FE-T01 (Frontend Alloy Selector)
+- **Artifacts:**
+  - frontend/src/features/alloy-calculator/components/AlloySelect.tsx
+  - frontend/src/features/alloy-calculator/api/getAlloys.ts
+  - frontend/src/features/alloy-calculator/components/AlloySelect.test.tsx
+
+
 
 
 
