@@ -40,7 +40,7 @@ Implementation follows a Client-Server model where the **Backend** acts as the S
 
 #### Tickets for AC-PLAYER-002
 
-1. - [ ] **AC-PLAYER-002-DB-T01 — Create Alloys Reference Table**
+1. - [x] **AC-PLAYER-002-DB-T01 — Create Alloys Reference Table** (2026-02-04)
    - **Type**: DB (Migrations)
    - **Description**: Create a table/structure to hold Alloy Definitions (Name, Enabled).
    - **Scope**: New table `alloys` (or JSON config if preferred, but Table is standard).

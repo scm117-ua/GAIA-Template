@@ -44,6 +44,12 @@
 - **Artifacts:**
   - frontend/src/features/alloy-calculator/components/AmountInput.tsx
 
+- **Milestone:** Implemented AC-PLAYER-002-DB-T01 (Alloys Reference Table)
+- **Artifacts:**
+  - backend/app/infrastructure/persistence/models/alloy.py
+  - backend/alembic/versions/*
+
+
 
 
 
