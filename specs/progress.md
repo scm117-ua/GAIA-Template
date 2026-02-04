@@ -49,6 +49,13 @@
   - backend/app/infrastructure/persistence/models/alloy.py
   - backend/alembic/versions/*
 
+- **Milestone:** Implemented AC-PLAYER-002-BE-T01 (Alloy List Endpoint)
+- **Artifacts:**
+  - backend/app/presentation/api/v1/routers/alloys.py
+  - backend/app/application/alloy_calculator/list_alloys.py
+  - backend/app/infrastructure/persistence/repositories/alloy.py
+
+
 
 
 
